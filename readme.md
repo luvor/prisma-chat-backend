@@ -1,5 +1,14 @@
 # prisma chat backend
 
+Develop a real-time chat application using <b>Node.js, WebSocket, and Vue.js</b>. Users will be able to send and receive messages in real-time, share files (displayed as downloadable links), and see past messages upon connection.
+
+## Key Features:
+- Real-Time Messaging: Users send and receive messages instantly.
+- File Sharing: Users upload files of any type, displayed as links in the chat.
+- Message Persistence: Store and retrieve messages from SQLite using Prisma.
+- Drag-and-Drop: Integrate FilePond for seamless file uploads.
+
+
 ## Getting Started
 
 1. Install & run backend
