@@ -1,0 +1,16 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Message {
+  id        Int      @id @default(autoincrement())
+  user      String
+  content   String?
+  fileUrl   String?
+  createdAt DateTime @default(now())
+}
